@@ -1,0 +1,33 @@
+@font-face {
+    font-family: TeslaFontFamily;
+    src: url(../Tesla_css/tesla-font/TESLA.ttf);
+}
+@font-face {
+    font-family: TeslaBoldContentFont;
+    src: url(../Tesla_css/Gotham-Font/Gotham-Black.otf);
+}
+@font-face {
+    font-family: TeslaLightContentFont;
+    src: url(../Tesla_css/Gotham-Font/Gotham-Light.otf);
+}
+@font-face {
+    font-family: TeslaMediumContentFont;
+    src: url(../Tesla_css/Gotham-Font/GothamMedium.ttf);
+}
+:root{
+    --default-logo-font-family: TeslaFontFamily;
+    --default-text-bold-font-family: TeslaBoldContentFont;
+    --default-text-light-family:TeslaLightContentFont;
+    --default-text-medium-family:TeslaMediumContentFont;
+    --cursor-on-button:pointer;
+
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}

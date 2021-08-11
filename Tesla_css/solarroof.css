@@ -1,0 +1,135 @@
+#headsection{
+    color: white;
+}
+
+#SolarRoofBigIntro{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: black;
+}
+#ValueOnVideo{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
+    align-items: center;
+    font-family: var(--default-text-medium-family);
+    color: white;
+    z-index: 1;
+}
+#HeaderOfVIdeo{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 15vh;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 1em;
+}
+#HeaderOfVIdeo > strong{
+    font-size: 40px;
+    font-weight: 600;
+}
+#InfoofVideo{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: auto;
+    margin-bottom: 5em;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 2em;
+    padding: 14px;
+}
+.AboveText{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    line-height: 1.6;
+    width: 5em;
+}
+.AboveText strong{
+    font-size: 2em;
+}
+.AboveText + p{
+    font-size: 0.85em;
+    line-height: 1.5;
+    width: 15ch;
+    overflow-wrap: break-word;
+}
+#InfoofVideo .InfoofVideoColumns{
+    flex: 1;
+    text-align: center;
+    height: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.InfoofVideoColumnsButton button{
+    padding: 10px;
+    color: white;
+    outline: none;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    border-radius: 25px;
+    cursor: pointer;
+    background-color: transparent;
+    text-transform: uppercase;
+    width: 200px;
+}
+.InfoofVideoColumnsButton button:hover{
+    background: white;
+    color: black;
+    font-weight: 700;
+}
+
+
+.BigSolarRoofVideo{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    object-position: center;
+}
+
+#DownArrowAnimation{
+    position: absolute;
+    color: white;
+    font-weight: 700;
+    font-size: 1.8em;
+    width: 1em;
+    left:50%;
+    right: 50%;
+    bottom: 4vh;
+    animation-name: DownAnimation;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+    filter: invert(1);
+}
+@keyframes DownAnimation {
+    0%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(15px);
+    }
+    
+}
