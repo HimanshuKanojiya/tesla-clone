@@ -1,7 +1,7 @@
 const contentforheader = (section_id) => {
     const html = `
     <div id="headlogo">
-            <h1><a href = "./index.html">TESLA</a></h1>
+            <h1><a href = "./">TESLA</a></h1>
         </div>
         <div id="primaryhead1">
             <nav id="navigationbar">
